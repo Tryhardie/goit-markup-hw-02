@@ -46,6 +46,9 @@ body {
 .site-contacts .link {
   color: var(--secondary-text-color);
 }
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
 .link:hover,
 .link:focus {
   color: var(--accent-text-color);
@@ -70,6 +73,7 @@ body {
   color: #ffffff;
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -77,6 +81,12 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-text-color);
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--primary-text-color);
+  background-color: var(--accent-bg-color);
 }
 
 /* Features Section */
@@ -147,4 +157,35 @@ body {
 }
 .address-mail,
 .address-tel {
-    color: rgba(255, 255, 255, 0.6);}
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-link:hover,
+.address-link:focus,
+.address-mail:hover,
+.address-mail:focus,
+.address-tel:hover,
+.address-tel:focus {
+  color: var(--accent-text-color);
+}
+
+/* Portfolio btns */
+
+.portfolio-btns {
+  list-style-type: none;
+}
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: inherit;
+  color: var(--primary-text-color);
+  background-color: var(--accent-bg-color);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
+}
