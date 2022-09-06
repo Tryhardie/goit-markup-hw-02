@@ -189,3 +189,16 @@ body {
   color: #ffffff;
   background-color: var(--accent-text-color);
 }
+.portfolio-tiles {
+  list-style-type: none;
+}
+.tile-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.tile-text {
+    font-size: 16px;
+    line-height: 1.87;    
+    color: var(--secondary-text-color);
+}
