@@ -21,6 +21,7 @@ body {
 .logo-footer {
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: #000000;
@@ -100,6 +101,7 @@ body {
   text-transform: uppercase;
 }
 .features-text {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
@@ -198,6 +200,7 @@ body {
   letter-spacing: 0.06em;
 }
 .tile-text {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;    
     color: var(--secondary-text-color);
